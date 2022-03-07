@@ -1,0 +1,26 @@
+{
+    "name": "admin/phpunit",
+    "authors": [
+        {
+            "name": "Pavl Al",
+            "email": "test@test.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Backend\\": "Backend/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

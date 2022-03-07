@@ -1,1 +1,1 @@
-# php-course-phpunit
+Прохождение курса PHPUnit от Web for Myself
