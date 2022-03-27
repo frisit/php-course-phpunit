@@ -6,6 +6,7 @@ class LessonFiveTest extends TestCase
 {
     public static function setUpBeforeClass(): void
     {
+        fwrite(STDOUT, 'Start six lesson tests' . "\n");
         fwrite(STDOUT, __METHOD__ . "\n");
     }
 
@@ -52,6 +53,7 @@ class LessonFiveTest extends TestCase
 
     public function onNotSuccessfulTest(Throwable $t): void
     {
+        fwrite(STDOUT, 'End six lesson tests' . "\n");
         fwrite(STDOUT, __METHOD__ . "\n");
         throw $t;
     }
